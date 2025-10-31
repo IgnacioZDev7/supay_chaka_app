@@ -1,21 +1,22 @@
-import Hero from "@/components/Hero";
-import Synopsis from "@/components/Synopsis";
-import Features from "@/components/Features";
-import Timeline from "@/components/Timeline";
-import Gallery from "@/components/Gallery";
-import Team from "@/components/Team";
-import Footer from "@/components/Footer";
+import Heroe from "@/components/Heroe";
+import Sinopsis from "@/components/Sinopsis";
+import Caracteristicas from "@/components/Caracteristicas";
+import LineaDeTiempo from "@/components/LineaDeTiempo";
+import Galeria from "@/components/Galeria";
+import Equipo from "@/components/Equipo";
+import PieDePagina from "@/components/PieDePagina";
 
 const Index = () => {
+  // Página principal del sitio web
   return (
     <main className="min-h-screen bg-background">
-      <Hero />
-      <Synopsis />
-      <Features />
-      <Timeline />
-      <Gallery />
-      <Team />
-      <Footer />
+      <Heroe />
+      <Sinopsis />
+      <Caracteristicas />
+      <LineaDeTiempo />
+      <Galeria />
+      <Equipo />
+      <PieDePagina />
     </main>
   );
 };
